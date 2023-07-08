@@ -1,0 +1,51 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+}
+#main{
+  text-align: center;
+  font-family: Marvel;
+  background-color: rgb(54, 7, 7);
+  padding-top: 2%;
+  color: white;
+  display: block;
+  font-size: xx-large;
+}
+#img-caption {
+  font-size: 80%;
+  font-style: italic;
+}
+#img-div {
+text-align: center;
+}
+
+#image {
+  max-width: 100rem;
+  width: 20rem;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#tribute-info {
+  margin: 1 %;
+}
+
+#parallax {
+  /* Full height */
+  height: 70rem; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.about {
+  margin: 2rem;
+  padding: 2rem;
+  border-color: yellow;
+  /* border-radius: 25px; */
+  border-style: solid;
+}
